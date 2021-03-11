@@ -54,6 +54,6 @@ $(document).ready(function(){
     });
 
     //Page Speed
-    document.addEventListener('touchstart', onTouchStart, {passive: true});
-    document.addEventListener('scroll', onScroll, {passive: true});
+    document.addEventListener('touchstart', {passive: true});
+    document.addEventListener('scroll', {passive: true});
 });
